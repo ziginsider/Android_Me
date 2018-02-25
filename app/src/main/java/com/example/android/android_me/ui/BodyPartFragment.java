@@ -29,7 +29,7 @@ public class BodyPartFragment extends Fragment {
         ImageView imageView = (ImageView) rootView.findViewById(R.id.body_part_image_view);
 
         //set the image resource to the display
-        imageView.setImageResource(AndroidImageAssets.getBodies().get(0));
+        imageView.setImageResource(AndroidImageAssets.getHeads().get(0));
 
         return rootView;
     }
